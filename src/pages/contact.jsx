@@ -1,5 +1,7 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import pageTitleVid from '../assets/video_bg.mp4';
+
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xykdwrao");
@@ -29,7 +31,8 @@ export default function Contact() {
               opacity: 0.2
             }}
           >
-            <source src="../assets/video_bg.mp4" type="video/mp4" />
+                     <source src={pageTitleVid} type="video/mp4" />
+           
             Your browser does not support the video tag.
           </video>
           <div className="container">

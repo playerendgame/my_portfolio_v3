@@ -18,6 +18,8 @@ import projects10 from '../assets/projects_10.jpg';
 import projects16 from '../assets/projects_16.png';
 import projects11 from '../assets/projects_11.jpg';
 import projects12 from '../assets/projects_12.jpg';
+import pageTitleVid from '../assets/video_bg.mp4';
+
 
 export default function Projects() {
 
@@ -197,7 +199,7 @@ export default function Projects() {
             opacity: 0.2
           }}
         >
-          <source src="../assets/video_bg.mp4" type="video/mp4" />
+          <source src={pageTitleVid} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="container">
