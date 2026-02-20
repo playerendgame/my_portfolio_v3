@@ -1,0 +1,118 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.navbar{
+  background-color: #fafafa;
+}
+
+.footer_container{
+  background-color: #315273;
+}
+
+.my_image{
+  box-shadow:  -5px -0px 5px rgb(245, 245, 245);
+  border-style: solid;
+  border-color: rgb(241, 241, 241);
+}
+
+.learnMoreBtn{
+  background-color: #0da6f2;
+  transition: transform 0.5s ease;
+}
+
+.learnMoreBtn:hover{
+  transform: scale(1.1)
+}
+
+.getInTouchBtn{
+    border-style: solid;
+    border-color: #dadada;
+    transition: transform 0.5s ease;
+}
+
+.getInTouchBtn:hover{
+    color: #0da6f2;
+    border-style: solid;
+    border-color: #0da6f2;
+}
+
+.clydeImageContainer{
+  border-style: solid;
+  border-color: #22a0dc;
+  border-width: 5px;
+}
+
+
+.page_container_title{
+  position: relative;
+  overflow: hidden;
+}
+
+.projects_card {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.projects_card:hover {
+  border: 1px solid #3a98cd !important;
+  box-shadow: 0 4px 15px rgba(58, 152, 205, 0.3) !important;
+  transform: translateY(-5px);
+}
+
+.project-image:hover {
+  transform: scale(1.05) !important;
+}
+
+.projects_card {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.view_project_button{
+  color: #22a0dc;
+}
+
+.view_project_button:hover{
+  color: #66ccff;
+}
+
+.download_resume_container{
+  background-color: #e8f3f9;
+  padding: 2rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #0da6f2;
+  border-width: 1px;
+}
