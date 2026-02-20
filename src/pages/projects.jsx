@@ -109,21 +109,21 @@ export default function Projects() {
         title: 'ERP GoPrime Technology Corp',
         description: `Fully functional Indoor ERP Web App that I developed for the client GoPrime Technology Corp`,
         stacks: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'Vue.js', 'Laravel', 'PHP', 'MySql'],
-        link: 'https://github.com/playerendgame/bluetti_crm'
+        link: 'https://github.com/playerendgame/erp_goprime'
       },
       {
         image: erp2025,
         title: 'ERP GoPrime v2 2025',
         description: `Fully functional Indoor ERP Web App that I developed for the client GoPrime Technology Corp`,
         stacks: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'Vue.js', 'Laravel', 'PHP', 'MySql'],
-        link: 'https://github.com/playerendgame/bluetti_crm'
+        link: 'https://github.com/playerendgame/erp_goprime_2025'
       },
       {
         image: projects13,
         title: 'GoPrime Technology Corp I.T Helpdesk',
         description: `Fully functional Indoor IT Helpdesk for GoPrimeTechnology Corp`,
         stacks: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'Vue.js', 'Laravel', 'PHP', 'MySql'],
-        link: 'https://github.com/playerendgame/bluetti_crm'
+        link: 'https://github.com/playerendgame/goprime_helpdesk'
       },
     ]
   };
