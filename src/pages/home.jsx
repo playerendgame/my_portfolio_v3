@@ -1,8 +1,14 @@
 import ClydeImage from '../assets/clyde_img.jpg'
 import ClydeImage1 from '../assets/clyde_img1.jpg'
+import { useEffect } from 'react'
+
 
 
 export default function Home() {
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    });
 
     const pageData = {
         title: 'Clyde Timothy Sumabat',

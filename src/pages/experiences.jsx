@@ -1,8 +1,16 @@
 import resume from '/assets/clyde_resume.pdf';
 import pageTitleVid from '../assets/video_bg.mp4';
+import { useEffect } from 'react'
+
 
 
 export default function Experiences() {
+
+  
+    useEffect(() => {
+        window.scrollTo(0,0);
+    });
+
 
   const pageUpperData = {
     title: 'Experience & Resume',

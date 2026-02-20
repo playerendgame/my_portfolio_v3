@@ -19,9 +19,15 @@ import projects16 from '../assets/projects_16.png';
 import projects11 from '../assets/projects_11.jpg';
 import projects12 from '../assets/projects_12.jpg';
 import pageTitleVid from '../assets/video_bg.mp4';
+import { useEffect } from 'react'
+
 
 
 export default function Projects() {
+
+  useEffect(() => {
+      window.scrollTo(0,0);
+  });
 
   const [filter, setFilter] = useState('all');
 

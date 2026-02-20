@@ -1,9 +1,16 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import pageTitleVid from '../assets/video_bg.mp4';
+import { useEffect } from 'react'
+
 
 
 export default function Contact() {
+
+  useEffect(() => {
+      window.scrollTo(0,0);
+  });
+
   const [state, handleSubmit] = useForm("xykdwrao");
   
   const pageUpperData = {

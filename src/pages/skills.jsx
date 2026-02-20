@@ -1,6 +1,13 @@
 import pageTitleVid from '../assets/video_bg.mp4';
+import { useEffect } from 'react'
+
 
 export default function Skills() {
+
+
+  useEffect(() => {
+      window.scrollTo(0,0);
+  });
 
   const pageUpperData = {
     title: 'My Skills',
