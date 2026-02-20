@@ -25,11 +25,11 @@ function App(){
     <div>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/experiences" element={<Experiences />} />
-        <Route path="/contacts" element={<Contact />} />
+        <Route path="/my_portfolio_v3/" element={<Home />} />
+        <Route path="/my_portfolio_v3/skills" element={<Skills />} />
+        <Route path="/my_portfolio_v3/projects" element={<Projects />} />
+        <Route path="/my_portfolio_v3/experiences" element={<Experiences />} />
+        <Route path="/my_portfolio_v3/contacts" element={<Contact />} />
       </Routes>
 
       <Footer />

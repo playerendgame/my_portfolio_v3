@@ -4,11 +4,11 @@ export default function Navigation() {
     const location = useLocation()
 
     const navItems = [
-        {name: 'Home', path: '/'},
-        {name: 'Skills', path: '/skills'},
-        {name: 'Projects', path: '/projects'},
-        {name: 'Experiences', path: '/experiences'},
-        {name: 'Contacts', path: '/contacts'},
+        {name: 'Home', path: '/my_portfolio_v3/'},
+        {name: 'Skills', path: '/my_portfolio_v3/skills'},
+        {name: 'Projects', path: '/my_portfolio_v3/projects'},
+        {name: 'Experiences', path: '/my_portfolio_v3/experiences'},
+        {name: 'Contacts', path: '/my_portfolio_v3/contacts'},
     ]
 
     return (
