@@ -88,8 +88,8 @@ export default function Home() {
 
                         {/* Buttons */}
                         <div className='buttons_container d-flex pt-5'>
-                            <a href="/experiences" className='learnMoreBtn btn btn-lg text-light btn-primary'>Learn More</a>
-                            <a href="/contacts" className='getInTouchBtn btn btn-lg ms-2'>Get In Touch</a>
+                            <a href="/my_portfolio_v3/experiences" className='learnMoreBtn btn btn-lg text-light btn-primary'>Learn More</a>
+                            <a href="/my_portfolio_v3/contacts" className='getInTouchBtn btn btn-lg ms-2'>Get In Touch</a>
 
                         </div>
                     </div>
